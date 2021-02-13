@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <script src="../js/paralaxe.js"></script> -->
+</head>
+<body class="bodyIndex">
+    <div class="titre">
+        <h1>Choisissez un jeu</h1>
+    </div>
+
+    <div class="mainPage">
+        <div class="zoneDeJeu">
+            <a href="../html/menuRoulette.html"><div class="jeux" id="jeuRoulette" data-tilt data-tilt-scale="1.1">
+                <h1>Roulette</h1>
+
+                <h2>Comment jouer ?</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptate non ipsa deleniti culpa autem, dolorum officia, amet ex labore corrupti voluptatum fugiat optio illum, odio dignissimos incidunt facilis consectetur!</h3>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia saepe consectetur, expedita tenetur aperiam dolores laudantium dignissimos in ea voluptatibus accusamus nam eveniet est beatae molestias magnam impedit libero?</h3>
+            </div></a>
+            <!-- <a href="../html/roulette.html"><input class="boutonLancerJeu" type="button" value="Lancer" name="" id="boutonJeuRoulette"></a>  -->
+        </div>
+        
+        <div class="zoneDeJeu">
+            <a href="../html/memoire.html"><div class="jeux" id="jeuMemory" data-tilt data-tilt-scale="1.1">
+                <h1>Memory</h1>
+
+                <h2>Comment jouer ?</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptate non ipsa deleniti culpa autem, dolorum officia, amet ex labore corrupti voluptatum fugiat optio illum, odio dignissimos incidunt facilis consectetur!</h3>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia saepe consectetur, expedita tenetur aperiam dolores laudantium dignissimos in ea voluptatibus accusamus nam eveniet est beatae molestias magnam impedit libero?</h3>
+            </div></a>
+            <!-- <a href="../html/memoire.html"><input class="boutonLancerJeu" type="button" value="Lancer" name="" id="boutonJeuMemory"></a>  -->
+        </div>
+        
+        <div class="zoneDeJeu">
+            <a href="../html/rapido.html"><div class="jeux" id="jeuRapido" data-tilt data-tilt-scale="1.1">
+                <h1>Rapido</h1>
+
+                <h2>Comment jouer ?</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptate non ipsa deleniti culpa autem, dolorum officia, amet ex labore corrupti voluptatum fugiat optio illum, odio dignissimos incidunt facilis consectetur!</h3>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia saepe consectetur, expedita tenetur aperiam dolores laudantium dignissimos in ea voluptatibus accusamus nam eveniet est beatae molestias magnam impedit libero?</h3>
+            </div></a>
+            <!-- <a href="../html/rapido.html"><input class="boutonLancerJeu" type="button" value="Lancer" name="" id="boutonJeuRapido"></a>  -->
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="../js/paralaxe.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".jeux"), {
+            max: 15,
+            reverse: false,
+            speed: 10,
+            glare: true,
+            "max-glare": 1,
+            transition: true,
+        });
+    </script>
+
+</body>
+</html>

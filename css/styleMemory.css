@@ -1,0 +1,80 @@
+/* Memory */
+.contentMemory
+{
+    margin-top: 50px;
+    display: flex;
+}
+.choix 
+{
+    background-color: rgb(136, 136, 255);
+    border-radius: 30px;
+    width: 30%;
+    list-style-type: none;
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.listeDeChoix a 
+{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.listeDeChoix b:hover
+{
+    transition: 0.2s;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(68, 68, 192);
+}
+.ulDeChoix li
+{
+    list-style: none;
+}
+.choixMenu
+{
+    margin: 10%;
+    padding: 20px;
+    background-color:rgb(218, 78, 101) ;
+    text-align: center;
+    
+}
+.ulDeNavBarre 
+{
+    /* position: fixed; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 0px 0px 25px 0px;
+}
+
+/* Choix du niveau   */
+.liDeChoix 
+{
+    float: left;
+    transition: 0.5s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.listeNavBarre:hover 
+{
+    transition: 0.5s;
+    background-color: rgba(243, 117, 117, 0.144);
+    border-radius: 0px 0px 25px 25px;
+}
+.ulDeChoix 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(214, 113, 113);
+    border-radius: 25px 25px 25px 25px;
+}

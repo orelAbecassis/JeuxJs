@@ -1,0 +1,181 @@
+/* Général */
+
+/* Index */
+.bodyIndex
+{
+    background-image: linear-gradient(45deg, rgb(141, 141, 252), rgb(255, 184, 196), rgb(255, 238, 238));
+}
+/* .bodyIndex
+{
+    
+} */
+/* @keyframes degrade {
+    1% {
+        background-image: linear-gradient(45deg, rgb(255, 184, 196),rgb(141, 141, 252), rgb(255, 238, 238));
+    }
+    100% {
+        background-image: linear-gradient(45deg, rgb(141, 141, 252), rgb(255, 184, 196), rgb(255, 238, 238));
+   }
+} */
+
+
+.bodyIndex {
+    -webkit-animation: degrade 1.5s infinite linear;
+    -moz-animation: degrade 1.5s infinite linear;
+    -ms-animation: degrade 1.5s infinite linear;
+    -o-animation: degrade 1.5s infinite linear;
+    animation: degrade 1.5s infinite linear;
+}
+
+/* Nav Barre */
+.ulDeNavBarre 
+{
+    /* position: fixed; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 0px 0px 25px 0px;
+}
+  
+.listeNavBarre 
+{
+    float: left;
+}
+  
+.listeNavBarre a 
+{
+    transition: 0.5s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.listeNavBarre a:hover 
+{
+    transition: 0.5s;
+    background-color: rgb(243, 117, 117);
+    border-radius: 0px 0px 25px 25px;
+}
+#boutonIci a
+{
+    transition: 0.5s;
+    border-radius: 0px 0px 25px 25px;
+    background-color: rgb(141, 0, 0);
+}
+#boutonIci a:hover
+{
+    transition: 0.5s;
+    background-color: rgb(177, 96, 96);
+}
+
+/* tout */
+.titre
+{
+    margin-top: 1px;
+}
+.titre h1
+{
+    font-size: 500%;
+}
+.mainPage
+{
+    display: flex;
+}
+.zoneDeJeu
+{
+    margin: 20px;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+.zoneDeJeu a
+{
+    text-decoration: none;
+}
+.jeux
+{
+    background-color: gray;
+    border-radius: 5px 40px;
+    text-align: center;
+    color: white;
+    border: black thin solid;
+    border-width: 5px;
+    margin-bottom: 30px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+.jeux:hover
+{
+    /* transition: 0.5s; */
+    border-radius: 40px 5px;
+    cursor: pointer;
+}
+.jeux h1
+{
+    text-decoration: underline;
+    transform: translateZ(50px);
+}
+.jeux h2
+{
+    transform: translateZ(40px);
+    margin: 10px;
+}
+.jeux h3
+{
+    transform: translateZ(30px);
+    margin: 10px;
+}
+.boutonLancerJeu
+{
+    background-color: rgb(236, 180, 75);
+    border: black thin solid;
+    color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    border-width: 3px;
+    transition: 0.5s;
+}
+.boutonLancerJeu:hover
+{
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    border-radius: 50% 20% / 10% 40%;
+}
+/* .retour
+{
+    text-decoration: none;
+} */
+.titre
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    border: black thin solid;
+    border-width: 2px;
+}
+
+
+#jeuRoulette
+{
+    background-color: rgb(255, 91, 91);
+}
+#jeuMemory
+{
+    background-color: rgb(102, 102, 255);
+}
+#jeuRapido
+{
+    background-color: rgb(117, 253, 117);
+}
+
+
+
+
+
+
